@@ -6,3 +6,6 @@ const axiosInstance = axios.create({
 
 
 export default axiosInstance;
+
+// https://apixo-kn37.onrender.com/
+// http://localhost:5000
