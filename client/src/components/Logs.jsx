@@ -13,7 +13,7 @@ const Logs = () => {
      useEffect(() => {
           if (!userId) return;
 
-          const socket = io("http://localhost:5000", {
+          const socket = io("https://apixo-kn37.onrender.com/", {
                query: { userId }
           });
 
